@@ -1,0 +1,44 @@
+h4{
+    color: mediumseagreen;
+}
+
+hr{
+    color: dodgerblue;
+}
+
+body{
+    background-color: rgb(224 255 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+p.input.text{
+    box-shadow: 0 0 10 10 10;
+}
+
+div{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    height: 900px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.required::after {
+    content: "必須";
+    background-color: rgb(255 99 71);
+    color: rgb(255 255 255);
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.border{
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
+
