@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>アンケート</title>
+        <link rel="stylesheet" href="web_html_css/css/style.css">
+    </head>
+
+        <body>
+          <div class="wasabi">
+            <h4>アンケート</h4>
+            <p>Axizの研修をご利用いただき、誠にありがとうございます。
+            <br>以下の内容の記入及び送信をしていただけると幸いです。
+            </p>
+            <p>会社名</p>
+            <input type="text" name="name1" value="" placeholder="例)株式会社テクノコア">
+            <p>お名前</p>
+            <input type="text" name="name2" value="" placeholder="例)手久野 興亜">
+            <p>メールアドレス</p>
+            <input type="text" name="name3" value="" placeholder="例)example@axiz.co.jp">
+            <p>年齢</p>
+            input type="text" name="name4" value="" placeholder="23">
+            <p>受講コース</p>
+            <input type="radio" name="cource" value="Java" checked>Java
+            <input type="radio" name="cource" value="infrastructure">インフラ
+            <p>会場</p>
+            <select name="会場">
+            <option value="class">日本橋A教室</option>
+            </select>
+            <p>詳しく学びたい内容（複数回答可）</p>
+            <input type="checkbox" name="test1" value="business manner">ビジネスマナー
+            <input type="checkbox" name="test2" value="html/css">HTML/CSS
+            <input type="checkbox" name="test3" value="javascript">Javascript
+            <input type="checkbox" name="test4" value="java">Java
+            <input type="checkbox" name="test5" value="database">データベース
+            <input type="checkbox" name="test6" value="linux">Linux
+            </p>
+
+
+            <p>ご意見</p>
+            <textarea name="free" rows="10" cols="40">自由にご記入ください。</textarea>
+            <p><button type="submit">送信する</button></p>
+          </div>
+        </body>
+
+</html>
