@@ -37,9 +37,10 @@ h1{
     font-family: HGP創英角ﾎﾟｯﾌﾟ体;
 }
 
-.history ul li{
+.history ul{
     font-size: 13px;
     background-color: paleturquoise;
+    list-style-type: "\1F44D";  
 }
 
 .shumitokugi{
